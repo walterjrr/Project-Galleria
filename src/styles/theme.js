@@ -1,8 +1,13 @@
 export const theme = {
   colors: {
-    mainBg: 'red',
-    secondaryBg: 'blue',
+    mainBg: 'grey',
+    secondaryBg: '#fff',
   },
   fonts: {},
   spacing: {},
+  sizePaints: {
+    small: '150px',
+    medium: '300px',
+    big: '400px',
+  },
 };
