@@ -1,11 +1,15 @@
 import styled, { css } from 'styled-components';
 
 export const Painting = styled.div`
-  ${() => css`
+  ${({ Width }) => css`
+    width: 33%;
+    border: 2px solid white;
+    margin: 15px;
     > img {
-      width: 150px;
-      height: 150px;
-      border: 2px solid white;
+      width: 100%;
+    }
+    > p {
+      width: 100%;
     }
   `};
 `;
