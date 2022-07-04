@@ -2,10 +2,10 @@
 import P from 'prop-types';
 import * as Styled from './style';
 
-export const Painting = ({ Link, Alt, Children, Width }) => {
+export const Painting = ({ Link, Alt, Children }) => {
   return (
     <Styled.Painting>
-      <img src={Link} alt={Alt} />
+      <img src={Link} alt={Alt}></img>
       <p>{Children}</p>
     </Styled.Painting>
   );
